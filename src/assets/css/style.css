@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+body {
+  background-color: #0A0A0A;
+  font-family: "Inter", sans-serif;
+}
+
+.intro_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.intro_wrap h1 {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 101px;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", sans-serif;
+  line-height: 90%;
+  letter-spacing: 0%;
+  margin-bottom: 8px;
+}
+.intro_wrap p {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #C7C7C7;
+}
+
+.contact_btn_link_wrap {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 16px;
+}
+
+.dot_icon {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #0A0A0A;
+  display: inline-flex;
+  justify-content: flex-end;
+  position: relative;
+  right: -20px;
+}
+
+.social_icon {
+  background-color: #222222;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site_header {
+  font-family: "Bebas Neue", sans-serif;
+}
+.site_header .navbar {
+  background-color: #0A0A0A !important;
+}
+.site_header .nav_outer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.site_header .nav_outer_wrapper .navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+.site_header .nav_outer_wrapper .navbar-nav .nav-link {
+  color: #C7C7C7;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+.site_header .nav_outer_wrapper .navbar-collapse {
+  flex-grow: 0;
+}
+.site_header .nav_outer_wrapper .navbar-brand {
+  color: #C7C7C7;
+  font-size: 32px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -1%;
+}
+
+.theme-btn {
+  background: #D3E97A;
+  color: #0A0A0A;
+  padding: 17px 22px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  border-radius: 100px;
+  text-decoration: none;
+  max-width: 187px;
+  width: 100%;
+  display: block;
+}
+.theme-btn:hover {
+  background: #0056b3;
+}
+.theme-btn:active {
+  transform: scale(0.97);
+}
+
+/*# sourceMappingURL=style.css.map */

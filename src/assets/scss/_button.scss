@@ -1,0 +1,39 @@
+.theme-btn {
+  background: #D3E97A;
+  color: #0A0A0A;
+  padding: 17px 22px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  border-radius: 100px;
+  text-decoration: none;
+  max-width: 187px;
+  width: 100%;
+  display: block;
+
+  &:hover {
+    background: #91b307;
+  }
+
+  &.btn_md {
+    max-width: 244px;
+  }
+
+  &:active {
+    transform: scale(0.97);
+  }
+}
+
+@media(max-width: 576px) {
+  .theme-btn {
+    padding: 12px 22px;
+    font-size: 14px;
+    max-width: 100%;
+  }
+}
