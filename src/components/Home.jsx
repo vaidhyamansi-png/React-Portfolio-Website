@@ -106,10 +106,10 @@ const Home = () => {
             <div className="col-md-6">
               <div className="intro_wrap">
                 <h1> hi, i am Mansi vaidhya </h1>
-                <p> A Sydney based front-end developer passionate about building accessible and user friendly websites. </p>
+                <p>An Indore-based UI Developer passionate about designing clean, responsive, and user-friendly web interfaces that provide a great user experience. </p>
                 <div className="contact_btn_link_wrap">
 
-                  <a href="#" className="theme-btn theme-primary" target="_blank"> Contact me <span className='dot_icon'></span>
+                  <a href="#contact_section" className="theme-btn theme-primary"> Contact me <span className='dot_icon'></span>
                   </a>
                   <div className='d-flex gap-3'>
                     <a href='https://www.linkedin.com/in/mansi-vaidhya-3540b82ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' className="social_icon">
@@ -228,7 +228,7 @@ const Home = () => {
                   <h6> Project Info </h6>
                   <div className='year_role_wrap'>
                     <p> Year </p>
-                    <p> 2023-2026 </p>
+                    <p> 2025-2025 </p>
                   </div>
                   <div className='year_role_wrap mb-40'>
                     <p> Role </p>
@@ -467,7 +467,7 @@ const Home = () => {
           <div className="row align-items-center">
             <div className='col-md-6'>
               <span className='copy_right_wrap'>
-                © 2023 Robert Garcia
+                © 2026 Mansi vaidhya
               </span>
             </div>
             <div className='col-md-6'>
