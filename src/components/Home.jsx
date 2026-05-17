@@ -67,7 +67,7 @@ const Home = () => {
 
     try {
       const res = await fetch(
-        "https://fir-reatwebsite-default-rtdb.firebaseio.com/userDataRecords.json",
+        "https://react-portfolio-d27d6-default-rtdb.firebaseio.com/userDataRecords.json",
         {
           method: "POST",
           headers: {
