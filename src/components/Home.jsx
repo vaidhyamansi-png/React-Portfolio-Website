@@ -466,7 +466,7 @@ const Home = () => {
           </div>
           <div className="row align-items-center">
             <div className='col-md-6'>
-              <span className='copy_right_wrap'>
+              <span className='copy_right_wrap pt-3'>
                 © 2026 Mansi vaidhya
               </span>
             </div>
